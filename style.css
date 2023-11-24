@@ -171,10 +171,4 @@ p {
     margin-top: 25px;
 }
 
-@media screen and (max-width: 750px) {
-    
-    .logo {
-        align-items: center;
-    }
 
-}
