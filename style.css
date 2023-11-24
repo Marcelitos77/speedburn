@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    background-image: url(./img/bike\ indoor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+    position: relative;
+}
+
+
+
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.863); 
+    z-index: -1;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/bike indoor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+header {
+    background: linear-gradient(#e5f0f063, #e5f0f038,#e5f0f018, #e5f0f000);
+    display: flex;
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    width: 5%;
+    height: 40%;
+    margin-left: 30px;
+    margin-top: 5px;
+    border: 4px solid rgb(10, 10, 56);
+    padding: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: WHITE;    
+}
+
+.logo:hover {
+    width: 6%;
+    height: 50%;
+    transition: 0.6s ease;
+    transform: 15%;  
+}
+
+li {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+li:hover {
+    border-color: rgb(10, 10, 56);
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+a:hover {
+    color: #e5f0f0d5;
+    Border: 1px solid rgb(10, 10, 56);
+    padding: 6px;
+    border-radius: 10px;
+    background-color: rgb(10, 10, 56);
+    transition: 0.6s ease;
+    transform: 15%;  
+}
+
+.redes {
+    display: flex;
+    width: 10%;
+    gap: 25px;
+    margin-top: -50px;
+    margin-left: 150px;
+    cursor: pointer;;
+}
+
+.face:hover {
+    width: 200%;
+    transition: 0.6s; 
+}
+
+.insta:hover {
+    width: 200%;
+    transition: 0.6s;
+}
+
+.youtube:hover {
+    width: 200%;
+    transition: 0.6s;
+}
+
+
+
+main {
+    text-align: center;
+    margin-top: 100px;
+}
+#digitando {
+    color: white;
+    font-size: 200%;
+    border-right: 2px solid transparent; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    display: inline-block; 
+    animation: typing 5s steps(40, end);
+    font-family: 'Permanent Marker', cursive;  
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.video-container {
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+}
+
+footer {
+    background: linear-gradient(#e5f0f000,#e5f0f018,#e5f0f038,#e5f0f063);
+    display: flex;
+    text-align: center;
+    height: 60px;   
+}
+
+.logo2 {
+    width: 3%; 
+    margin-left: 430px;
+    margin-top: 10px; 
+    padding-right: 50px;
+    border: 2px solid rgb(10, 10, 56);
+    padding: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: WHITE; 
+}
+
+p {
+    color: white;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 750px) {
+    
+    .logo {
+        align-items: center;
+    }
+
+}
