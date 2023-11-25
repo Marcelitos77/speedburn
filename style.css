@@ -171,4 +171,88 @@ p {
     margin-top: 25px;
 }
 
+@media screen and (max-width: 760px) {
+
+    body {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        font-family: 'Permanent Marker', cursive;
+        margin: 0;
+        position: relative;
+        background-color: black;
+        
+    }
+    
+    
+    
+    body::after {
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 750px;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.863); 
+        z-index: -1;
+        
+    }
+    
+    body::before {
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0;
+        width:750px;
+        height: 100%;
+        background-image: url('./img/bike indoor.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -2;
+        
+    }
+    
+   
+   .logo {
+   margin-left: 185px;
+   width: 20%;
+   }
+
+    ul {
+        display: none;
+    }
+
+    h1 {
+        font-size: 12px;
+    }
+
+    .redes {
+        display: none;
+    }
+
+    .video-container {
+        display: block;
+    }
+
+    footer {
+        display: block;
+        margin-top: -50px;
+        height: 100px;
+        
+    }
+
+    .logo2 {
+        margin-left: -10px;
+        margin-bottom: 10px;
+        width: 5%;
+    }
+
+    p {
+        margin-top: -5px;
+        margin-bottom: 15px;
+        margin-left: -7px;
+    }
+}
+
 
