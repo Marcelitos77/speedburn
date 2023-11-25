@@ -171,6 +171,10 @@ p {
     margin-top: 25px;
 }
 
+.titulo {
+    margin-top: 0px;
+}
+
 @media screen and (max-width: 760px) {
 
     body {
