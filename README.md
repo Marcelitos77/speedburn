@@ -2,7 +2,7 @@
 
 Este é uma landpage de estudo na qual coloquei aulas de spinning (minhas aulas gravadas no youtube).
 
-link: https://vercel.com/marcelitos77s-projects/speedburn
+link: [https://vercel.com/marcelitos77s-projects/speedburn](https://speedburn.vercel.app/)
 
 ## 🛠 Habilidades
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
