@@ -16,3 +16,5 @@ Este é uma landpage de estudo na qual coloquei aulas de spinning (minhas aulas 
 ## Screenshots
 
 ![App Screenshot](https://github.com/Marcelitos77/speedburn/blob/main/speedbrun.png)
+
+![App Screenshot](https://github.com/Marcelitos77/speedburn/blob/main/speedburn2.png)
