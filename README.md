@@ -1,6 +1,6 @@
 # Speed Burn
 
-Este é uma landpage de estudo na qual coloquei aulas de spinning (minhas aulas gravadas no youtube).
+Este é uma landing page de estudo na qual coloquei aulas de spinning (minhas aulas gravadas no youtube).
 
 link: (https://speedburn.vercel.app/)
 
